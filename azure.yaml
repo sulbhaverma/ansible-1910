@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Create a resource group
+    azure.azcollection.azure_rm_resourcegroup:
+      name: 12
+      location: East US
