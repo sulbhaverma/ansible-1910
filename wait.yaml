@@ -1,7 +1,7 @@
 ---
 - hosts: linux
   tasks:
-  - name: validate whther web service is running
+  - name: validate whther web service is running 
     wait_for:
       host: localhost
       port: 80
