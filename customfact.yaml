@@ -9,7 +9,7 @@
       state: directory
   - name: copy the fact script to node
     copy:
-      src: /etc/ansible/playbook/datetime.sh 
+      src: datetime.sh 
       dest: /etc/ansible/facts.d/date_time.fact
       mode: 0755
   - name: reload the fact
